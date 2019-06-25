@@ -18,5 +18,18 @@ variable "access_key" {
   type="string"
 }
 
+variable "kubernetes_cluster_name" {
+  type="string"
+}
 
+variable "dns_prefix" {
+  type = "string"
+}
 
+variable "client_id" {
+  type = "string"
+}
+
+variable "client_secret" {
+  type = "string"
+}

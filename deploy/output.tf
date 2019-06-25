@@ -9,3 +9,8 @@ output "password" {
 output "login_server" {
   value = "${module.container.login_server}"
 }
+
+output "kubernetes_host" {
+  value = "${module.kubernetes.host}"
+}
+
